@@ -1,0 +1,7 @@
+res://default_env.tres
+res://World.tscn
+res://WalkerNew.gd
+res://Walker.gd
+res://World.gd
+res://MapGenerator.gd
+res://Player.tscn
