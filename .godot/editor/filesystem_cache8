@@ -1,0 +1,14 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1694243457
+default_env.tres::Environment::8591699657808827268::1694243457::0::1::::<><>::
+ExitDoor.gd::GDScript::-1::1694243223::0::1::::<>Area2D<>::
+ExitDoor.tscn::PackedScene::-1::1694243223::0::1::::<><>::res://ExitDoor.gd
+icon.png::CompressedTexture2D::4551391594311805989::1694243153::1694243238::1::::<><>::
+MapGenerator.gd::GDScript::-1::1694243223::0::1::::<>Node2D<>::
+Player.gd::GDScript::-1::1694243223::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::-1::1694243223::0::1::::<><>::res://icon.png<>res://Player.gd
+ProceduralWorld.gd::GDScript::-1::1694243223::0::1::::<>Level<>::
+RandomLevelGenTileset.png::CompressedTexture2D::4404752570669270763::1694243153::1694243238::1::::<><>::
+WalkerNew.gd::GDScript::-1::1694243457::0::1::::Walker<>Node<>::
+World.gd::GDScript::-1::1694243223::0::1::::<>Node2D<>::
+World.tscn::PackedScene::5620456070593253478::1694243457::0::1::::<><>::uid://b30xvp1qi8nqp::::res://RandomLevelGenTileset.png<>res://World.gd

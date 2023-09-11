@@ -6,34 +6,24 @@
 ;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
-config_version=4
-
-_global_script_classes=[ {
-"base": "Node",
-"class": "Walker",
-"language": "GDScript",
-"path": "res://Walker.gd"
-} ]
-_global_script_class_icons={
-"Walker": ""
-}
+config_version=5
 
 [application]
 
 config/name="Walker Level Generation"
 run/main_scene="res://World.tscn"
+config/features=PackedStringArray("4.1")
 config/icon="res://icon.png"
 
 [display]
 
-window/size/width=320
-window/size/height=180
-window/size/test_width=1280
-window/size/test_height=720
+window/size/viewport_width=320
+window/size/viewport_height=180
+window/size/window_width_override=1280
+window/size/window_height_override=720
 window/stretch/mode="2d"
-window/stretch/aspect="keep"
 
 [rendering]
 
+environment/defaults/default_environment="res://default_env.tres"
 quality/2d/use_nvidia_rect_flicker_workaround=true
-environment/default_environment="res://default_env.tres"
